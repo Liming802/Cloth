@@ -14,8 +14,8 @@ export default defineConfig({
     rollupOptions: {
       // https://vitejs.dev/guide/build.html#multi-page-app
       input: {
-        main: resolve(__dirname, "src/index.html"),
-        "3d-assets": resolve(__dirname, "src/shadows/index.html"),
+        main: resolve(__dirname, "src/shadows/index.html"),
+        // "3d-assets": resolve(__dirname, "src/shadows/index.html"),
       },
     },
   },
